@@ -14,10 +14,10 @@ GAN contains two networks (Generator and Discriminator) that play a mini-max gam
 In this project, we generated images by using GAN on MNIST digit dataset.
 
 # Install Project
-```bash
+```
 $ git clone https://github.com/Mikhael-P/Generative-Adversarial-Network-GAN-.git
 ```
-```bash
+```
 $ cd Generative-Adversarial-Network-GAN-
 ```
 
@@ -27,11 +27,11 @@ $ cd Generative-Adversarial-Network-GAN-
 
 ### Create a virtual environment
 
-```bash
+```
 $ python3 -m venv ENV_NAME
 ```
 ### Activate your environment
-```bash
+```
 $ source ENV_NAME/bin/activate
 ```
 
@@ -39,11 +39,11 @@ $ source ENV_NAME/bin/activate
 
 ### Create a virtual environment
 
-```bash
+```
 $ conda create -n venv ENV_NAME
 ```
 ### Activate your environment
-```bash
+```
 $ activate ENV_NAME
 ```
 
@@ -51,13 +51,13 @@ $ activate ENV_NAME
 
 To run this project, make sure to install all the requirements by the code below:
 
-```bash
+```
 $ pip install -r requirement.txt
 ```
 
 # Running the model
 
-```bash
+```
 $ python3 main.py
 ```
 
