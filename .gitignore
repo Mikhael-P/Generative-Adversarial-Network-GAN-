@@ -1,0 +1,5 @@
+GANMNIST/
+__pycache__/
+save_images/
+checkpoints/
+\.DS_Store
