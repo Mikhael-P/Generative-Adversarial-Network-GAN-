@@ -4,7 +4,7 @@ from keras.layers.advanced_activations import LeakyReLU
 from keras.models import Sequential, Model
 import numpy as np
 
-
+# Build our generator network
 def build_generator(img_shape):
     noise_shape = (100,)
 
@@ -26,7 +26,7 @@ def build_generator(img_shape):
 
     return Model(noise, img)
 
-
+# Build our discriminator network
 def build_discriminator(img_shape):
     model = Sequential()
     model.add(Flatten(input_shape = img_shape))
