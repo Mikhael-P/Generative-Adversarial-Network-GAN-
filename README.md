@@ -64,19 +64,19 @@ $ python3 main.py
 # Results
 
 #### At the beginin of the training
-<img src='save_images/mnist_0.png'>
+<img src='save_images_6/mnist_0.png'>
 
 #### Epoch = 3k
-<img src='save_images/mnist_3000.png'>
+<img src='save_images_6/mnist_3000.png'>
 
 #### Epoch = 6k
-<img src='save_images/mnist_6000.png'>
+<img src='save_images_6/mnist_6000.png'>
 
 #### Epoch = 9k
-<img src='save_images/mnist_9000.png'>
+<img src='save_images_6/mnist_9000.png'>
 
 #### Epoch = 12k
-<img src='save_images/mnist_12000.png'>
+<img src='save_images_6/mnist_12000.png'>
 
 #### Epoch = 14k
-<img src='save_images/mnist_14000.png'>
+<img src='save_images_6/mnist_14000.png'>
