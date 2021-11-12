@@ -1,9 +1,9 @@
 from os import mkdir
 from keras.datasets import mnist
-from tensorflow.keras.optimizers import Adam, RMSprop
+from tensorflow.keras.optimizers import Adam
+from keras.layers import Input
+from keras.models import Model
 from models import build_discriminator, build_generator
-from keras.layers import Input, Dense, Reshape, Flatten
-from keras.models import Sequential, Model
 from train import train
 from utils import save_imgs
 from config import args
