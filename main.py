@@ -14,7 +14,7 @@ data = mnist.load_data()
 path = "./save_images"
 img_shape = (args.img_rows, args.img_col, args.channels)
 
-epochs = 10
+epochs = 10000
 save_interval = 1000
 lr=0.0002
 beta=0.5
