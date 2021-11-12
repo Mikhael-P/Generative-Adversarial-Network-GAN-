@@ -29,6 +29,7 @@ discriminator.compile(loss = 'binary_crossentropy', optimizer = optimizer,
 generator = build_generator(img_shape)
 generator.compile(loss = 'binary_crossentropy', optimizer = optimizer)
 
+# print()
 
 # Noise
 z = Input(shape=(100,))
